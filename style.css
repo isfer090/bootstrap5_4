@@ -1,0 +1,249 @@
+
+img{
+    max-width: 100%;
+}
+
+
+/*=====  header  =====*/
+.header-bg{
+    background-color: #f8f9fa;
+}
+.header-menu{}
+.header-menu ul{}
+.header-menu ul li{}
+.header-menu ul li a{
+    color: #7311f6;
+    font-weight: 600;
+}
+.header-menu ul li ul li a{
+    color: black;
+}
+
+.navbar-brand{
+    text-align: center;
+}
+.navbar-brand img{
+    width: 50%;
+}
+.header-menu-btn{
+    background-color: #904aec !important;
+}
+
+/*=====  banner - section  =====*/
+.banner-section{}
+.banner-text{
+    display: flex;
+    align-items: center;
+}
+
+/*=====  About - section  =====*/
+
+.about-section{
+    background-color: black;
+}
+.about-text{}
+.about-text .paragraph-style-1 h6{
+    color: rgb(185, 185, 185);
+}
+.about-text .paragraph-style-1 h2{
+    color: white;
+}
+.about-text .paragraph-style-1 p{
+    color: rgb(219, 219, 219);
+}
+
+/*=====  number - section  =====*/
+
+.number-section{
+    background-image: linear-gradient( to left , #8e12fd , #6c11f4 );
+
+    /* background-image: url(./Screenshot\ 2022-03-29\ at\ 09-14-15\ Bootstrap.png);
+    background-size: cover;
+    background-position: top center; */
+}
+.number-text{
+    text-align: center;
+    color: white;
+}
+.number-text h3{
+    font-weight: 600;
+    font-size: 50px;
+}
+.number-text h6{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/*=====  priceing - section  =====*/
+
+.priceing-section{
+    background-color: #f9f9ff;
+}
+.priceing-header{}
+.priceing-header h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.priceing-header p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.priceing-card{
+    text-align: center;
+    overflow: hidden !important;
+}
+
+.card-body{
+    background-color: white !important;
+    overflow: hidden;
+}
+.card-body span{
+    color: #6c11f4;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+}
+.card-body span::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -25px;
+    left: -30px;
+    background-color: rgba(230, 230, 230, 0.473);
+    border-radius: 50%;
+}
+
+.card-body h4{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.card-body p{
+    color: black;
+    font-weight: 600;
+}
+.card-body ul{
+    list-style: none;
+    padding-left: 0;
+}
+.card-body ul li{
+    padding: 5px 0px;
+    font-weight: 500;
+    color: rgb(156, 151, 151);
+}
+
+
+/*=====  feedback - section  =====*/
+
+.feedback-section{
+    background-color: white;
+}
+.feedback-card{
+    background-color: #ddd;
+    position: relative;
+}
+.feedback-card-1::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./face1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.feedback-card-2::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./face2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.feedback-card-3::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./face3.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.feedback-card-4::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./face4.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.feedback-header h4{
+    font-weight: 600;
+}
+.feedback-header p{
+    font-weight: 500;
+}
+
+
+/*=====  contact - section  =====*/
+
+.contact-form{
+    background-image: linear-gradient(to left top , #8e12fd , blue  );
+    padding: 40px 20px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+
+textarea{
+    background-image:  url( ./banner\ \(2\).png ) ;
+    background-size: cover;
+    font-weight: 700 !important;
+    color: black;
+}
+
+.social-contact{}
+.social-contact ul{
+    list-style: none;
+    background-image: linear-gradient( to left top , #8e12fd , blue   );
+    border-radius: 8px;
+    padding: 10px 0px;
+    width: 50px;
+    color: mediumspringgreen;
+}
+.social-contact ul li{
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.social-contact ul li a{
+    font-size: 25px;
+}
+
+.social-contact ul li:nth-child(1) a{ color: #3180ff; }
+.social-contact ul li:nth-child(2) a{ color: #0099ff; }
+.social-contact ul li:nth-child(3) a{ color: #1cd432; }
+.social-contact ul li:nth-child(4) a{ color: #ff2929; }
+.social-contact ul li:nth-child(5) a{ color: black; }
+
+
+/*=====  footer - section  =====*/
+
+.footer-section{
+    background-color: black;
+}
+.footer-section p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}

@@ -1,0 +1,58 @@
+
+
+img{
+    max-width: 100%;
+}
+
+.paragraph-style-1{}
+.paragraph-style-1 h6{
+    color: #393f45;
+    font-size: 16px;
+    font-weight: 600;
+}
+.paragraph-style-1 h2{
+    color: #343a40;
+    font-weight: 600;
+    font-size: 40px;
+}
+.paragraph-style-1 p{
+    color: #393f45;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*===  button  ===*/
+.defalt-btn-style-1 a{
+    background-color: #7411f6da;
+    color: white;
+    font-weight: 700;
+}
+.defalt-btn-style-1 a:hover{
+    background-color: #7411f6ef;
+    color: white;
+}
+
+.defalt-btn-style-2 a{
+    background-color: #7e4cdb;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.defalt-btn-style-2 a:hover{
+    background-color: #7411f6ef;
+    color: white;
+}
+
+.defalt-btn-style-3 a{
+    background-color: rgba(255, 255, 255, 0.178) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.defalt-btn-style-3 a:hover{
+    background-color: rgb(23, 23, 255);
+    background-repeat: no-repeat;
+    color: white;
+}
